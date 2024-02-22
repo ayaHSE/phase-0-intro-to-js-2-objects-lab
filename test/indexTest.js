@@ -1,4 +1,11 @@
 require ( './helpers.js' );
+module.exports = {
+  updateEmployeeWithKeyAndValue,
+  destructivelyUpdateEmployeeWithKeyAndValue,
+  deleteFromEmployeeByKey,
+  destructivelyDeleteFromEmployeeByKey
+};
+
 
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
